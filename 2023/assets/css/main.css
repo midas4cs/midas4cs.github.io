@@ -131,6 +131,8 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2.25em 0;
+		text-align: justify;
+		font-size: 1.1em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2228,6 +2230,7 @@ input, select, textarea {
 
 		ul li {
 			padding-left: 0.5em;
+			font-size: 1.1em;
 		}
 
 		ul.alt {
@@ -2376,16 +2379,16 @@ input, select, textarea {
 	ul.feature-icons {
 		list-style: none;
 		padding-left: 0;
+		box-sizing: none;
 	}
 
 		ul.feature-icons li {
 			text-decoration: none;
-			display: inline-block;
+			display: inherit;
 			margin: 0 0 1.6875em 0;
 			padding: 0.35em 0 0 3.5em;
 			position: relative;
 			vertical-align: top;
-			width: 48%;
 		}
 
 			ul.feature-icons li:before {
@@ -2672,7 +2675,7 @@ input, select, textarea {
 
 			.features article .image img {
 				display: block;
-				width: 100%;
+				width: 60%;
 			}
 
 		.features article .inner {
@@ -2709,7 +2712,6 @@ input, select, textarea {
 		top: 0;
 		width: 23em;
 		right: 0;
-		margin-top: 20em;
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2781,6 +2783,7 @@ input, select, textarea {
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
 			flex-grow: 1;
+			margin-top: 5em;
 		}
 
 			#header > nav ul {
@@ -3130,6 +3133,10 @@ input, select, textarea {
 			}
 
 			h4 {
+				font-size: 1em;
+			}
+
+			p,ul li {
 				font-size: 1em;
 			}
 
