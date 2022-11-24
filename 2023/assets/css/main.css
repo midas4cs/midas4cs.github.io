@@ -2709,6 +2709,7 @@ input, select, textarea {
 		top: 0;
 		width: 23em;
 		right: 0;
+		margin-top: 20em;
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2789,7 +2790,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #c01f00;
+					border-top: solid 2px #e55f45;
 					display: block;
 					padding: 0;
 				}
