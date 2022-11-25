@@ -72,6 +72,19 @@ input, select, textarea {
 	appearance: none;
 }
 
+#submitButton:link, #submitButton:visited {
+  background-color: #c01f00;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#submitButton:hover, #submitButton:active {
+  background-color: red;
+}
+
 /* Basic */
 
 	html {
@@ -2783,7 +2796,7 @@ input, select, textarea {
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
 			flex-grow: 1;
-			margin-top: 5em;
+			margin-top: 3em;
 		}
 
 			#header > nav ul {
