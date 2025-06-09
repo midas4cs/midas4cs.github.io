@@ -24,6 +24,17 @@
 			  text-decoration: underline;
 			  cursor: pointer;
 			}
+
+			@media screen and (min-width: 769px){
+				.modal-dialog{
+					max-width: 80% !important;
+				}
+			}
+			@media screen and (max-width: 768px){
+				.modal{
+					z-index: 100000;
+				}
+			}
 		</style>
 	</head>
 	<body class="is-preload">
@@ -124,7 +135,7 @@ Tommy Tao, Mohsen Bastani, Anne-Ruth Scheijgrond, Roland Kromanis, Farid Vahdati
 									</ul>
 
 <div class="modal fade" id="keynote" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
-  <div class="modal-dialog" style="max-width: 80% !important">
+  <div class="modal-dialog" >
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="exampleModalLabel">MIDas4CS 2025 Keynote</h1>
@@ -132,14 +143,17 @@ Tommy Tao, Mohsen Bastani, Anne-Ruth Scheijgrond, Roland Kromanis, Farid Vahdati
       </div>
       <div class="modal-body">
       	<div class="row">
-      		<div class="col-2">
+      		<div class="col-12 col-md-2">
 		      	<img src="images/Wimmer.jpg" style="height:200px">
 		    </div>
-		    <div class="col-10">
+		    <div class="col-12 col-md-10">
 		        <h3>Model-Driven Engineering for Digital Twins</h3>
 		        <h4>by Prof. Manuel Wimmer</h4>
 		    </div>
-        <p>
+		<div>
+
+ 
+       		<div class="col-12" style="text-align: justify;">
         	<u><b>Abstract:</b></u> Due to the ever-growing importance of cyber-physical systems
 as a backbone of our society (think about shorter innovation cycles,
 emerging cutting-edge technologies, and changing requirements), the
@@ -157,8 +171,8 @@ In my talk, I will summarize different research endeavors we have
 followed to tackle the challenges in engineering digital twins with
 model-driven methodologies to close the gap between the design and
 operation of systems.   
-</p>
-<p>
+</div>
+<div class="col-12" style="text-align: justify;">
 <u><b>CV:</b></u> Manuel Wimmer is full professor and head of the Institute of
 Business Informatics - Software Engineering at the Johannes Kepler
 University Linz, Austria. His research interests comprise foundations of
@@ -172,7 +186,6 @@ ICMT 2015) and as general co-chair for SE 2024 and MODELS 2024.
 Currently he is co-organizing the 2nd International Conference on
 Engineering Digital Twins (EDTconf 2025). For more information, please
 visit: <a href="https://www.se.jku.at/manuel-wimmer" target="_blank">https://www.se.jku.at/manuel-wimmer</a>
-</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
