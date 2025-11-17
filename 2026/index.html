@@ -1,0 +1,336 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>4st Workshop on the Modelling and Implementation of Digital Twins for Complex Systems (MIDas4CS)</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		
+
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="favicon.png">
+
+		<style>
+			.link-button {
+			  background: none!important;
+			  border: none;
+			  padding: 0!important;
+			  /*optional*/
+			  font-family: arial, sans-serif;
+			  /*input has OS specific font-family*/
+			  color: #069;
+			  text-decoration: underline;
+			  cursor: pointer;
+			}
+
+			@media screen and (min-width: 769px){
+				.modal-dialog{
+					max-width: 80% !important;
+				}
+			}
+			@media screen and (max-width: 768px){
+				.modal{
+					z-index: 100000;
+				}
+			}
+		</style>
+
+		<script>
+			function moveToProgram(){
+				    //window.location.hash="program"
+			}
+		</script>
+	</head>
+	<body class="is-preload" onload="moveToProgram()">
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<h1 id="logo"><a href="#">MIDas4CS 2026</a></h1>
+					<p style="text-align: center">June 8-9, 2026<br> Verona, Italy</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#first" class="active">Motivation</a></li>
+						<li><a href="#objectives">Objectives and Topics</a></li>
+						<!-- <li><a href="#program">Programme</a></li>-->
+						<li><a href="#dates">Important Dates</a></li>
+						<li><a href="#submissions">Submissions</a></li>  <!-- <div style="font-size:15px; font-weight: bold; margin-top: -5px;">-deadline extended-</div>-->
+						<li><a href="#comitee">Programme Committee</a></li>
+						<li><a href="#chairs">Programme Chairs</a></li>
+						
+					</ul>
+				</nav>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- First -->
+							<section id="first">
+								<div class="image main" data-position="center">
+									<img src="images/banner.jpg" alt="" />
+									<!--<div style="position:absolute;bottom:0;right:0;z-index:10;font-size:12px;color:white"><u>Credits</u>: Alex Waltner, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0 </a>, via Wikimedia Commons</div>-->
+								</div>
+								<!--<div style="color:red; font-size:20px; margin:0 auto;text-align:center;padding-top: 30px;margin-bottom: -30px;">
+									Paper submission deadline extended!
+								</div>-->
+								<div class="container">	
+									<header class="major">
+										<h2>MIDas4CS</h2>
+										<p>Forth Workshop on the Modelling and Implementation of Digital Twins for Complex Systems</p>
+										<p>June 8-9, 2026, Verona, Italy <br>(in conjunction with <a href="https://caise26.polimi.it/" target="_blank">CAiSE 2026</a>)</p>
+									</header>
+									<p >The concept of Digital Twin is becoming increasingly popular since it was introduced in the scope of the Smart Industry (Industry 4.0). A Digital Twin (DT) is a digital representation of a physical twin that is a real-world entity, system, or event. It mirrors a distinctive object, process, building, or human, regardless of whether that thing is tangible or non-tangible in the real world. The DT technology provides benefits such as real-time remote monitoring and control; greater efficiency and safety; predictive maintenance and scheduling; scenario and risk assessment; better intra- and inter-team synergy and collaborations; more efficient and informed decision support system; personalisation of products and services; and better documentation and communication. The ultimate purpose of Digital Twins is to improve decision-making for solving real-world problems, by using the digital model to create the information necessary for decision-making and subsequently applying the decisions in the real world. Nowadays, Digital Twins are not limited to industrial applications but are spreading to other areas as well, such as, for example, in the healthcare domain, in personalised medicine and clinical trials for drug development.</p>
+								</div>
+							</section>
+
+						<!-- Objectives and Topics -->
+							<section id="objectives">
+								<div class="container">
+									<h3>Objectives and Topics</h3>
+									<p>This workshop aims at getting a better understanding of the techniques that can be used to
+model and implement Digital Twins and their applications in different domains. In this workshop, we welcome contributions that aim at introducing formal definitions of Digital Twin, but also contributions that describe applications of Digital Twins in different domains. Contributions on tooling for Digital Twins are also welcome.
+</p>
+									<p style="margin-bottom:5px">Potential <b>topics</b> include, but are not limited to:</p>
+									<ul >
+										<li>Management and Engineering of DT for Complex Systems</li>
+										<li>Complex System Architectures for DTs</li>
+										<li>Safety and Security in Adopting DTs</li>
+										<li>Platforms, Frameworks and Tools for DTs</li>
+										<li>Methods and Techniques for the Development of DTs</li>
+										<li>Edge/Fog/Cloud Computing for DTs</li>
+										<li>Conceptual Modelling and Ontologies of DTs</li>
+										<li>Model-Driven Enginering for DTs</li>
+										<li>Quality Assurance of DTs</li>
+										<li>Digital Process Twins</li>
+										<li>Collaboration among DTs</li>
+										<li>Interaction and cooperation between DTs and Humans</li>
+										<li>Artificial Intelligence for DTs</li>
+										<li>DT Enhanced Business Processes</li>
+										<li>Cognitive Computing for DTs</li>
+										<li>Augmented and Virtual Reality for DT</li>
+										<li>Practical Validation and Case Studies</li>
+										<li>Design patterns for Digital Twins</li>
+									</ul>
+								</div>
+							</section>
+
+							
+							<!-- Program -->
+<!--							<section id="program">
+								<div class="container">
+									<h3>Programme</h3>
+									<p>Monday, June 16, 2025</p>
+									<ul style="list-style:none">
+<li style="margin-bottom: 6px"><b>14:00-14:05</b>  <i>Opening</i></li>
+<li style="margin-bottom: 6px"><b>14:05-14:50</b>  <i>Keynote: <button type="button" class="link-button" data-bs-toggle="modal" data-bs-target="#keynote">Model-Driven Engineering for Digital Twins</i> by Prof. Manuel Wimmer</i></button></li>
+<li style="margin-bottom: 6px"><b>14:50-15:15</b> Tim Kreuzer, Panagiotis Papapetrou, and Jelena Zdravkovic. <i>A Meta-model for Integrating Explainable Forecasting with Digital Twins</i></li>
+<li style="margin-bottom: 20px"><b>15:15-15:40</b> Gerald Kremer, Svenja Nicole Schulte, Rainer Stark. <i>Development and Evaluation of Support Tools for Modeling Digital Twin Concepts and Architectures</i></li>
+<li style="margin-bottom: 20px"><b>15:40-16:10</b>  <i>Coffe Break</i></li>
+<li style="margin-bottom: 6px"><b>16:10-16:35</b> Renata Guizzardi, Jean Paul Sebastian Piest, Arda Akyazi, Sekai Ariji,
+Tommy Tao, Mohsen Bastani, Anne-Ruth Scheijgrond, Roland Kromanis, Farid Vahdatikhaki, Joschka Andreas Hüllmann, and Martijn Mes. <i>Requirements Analysis for a Digital Twin to Increase the Resilience of Multimodal Corridors: A Case Study in the Twente Region</i></li>
+<li style="margin-bottom: 6px"><b>16:35-17:00</b> Massimo Callisto De Donato, Flavio Corradini, Niccolò Francioni, Francesco Giovannini, Barbara Re, and Andrea Scacchia. <i>Towards a Digital Twin of a Decanter Centrifuge for Wastewater Management</i></li>
+<li style="margin-bottom: 6px"><b>17:00-17:25</b>  Flavio Oquendo. <i>Digital Twins in Systems-of-Systems on the Internet-of-Vehicles: The Case of Overtaking Maneuver</i></li>
+<li style="margin-bottom: 6px"><b>17:25-17:30</b>  <i>Closing</i></li>
+									</ul>
+
+<div class="modal fade" id="keynote" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+  <div class="modal-dialog" >
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">MIDas4CS 2025 Keynote</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      	<div class="row">
+      		<div class="col-12 col-md-2">
+		      	<img src="images/Wimmer.jpg" style="height:200px">
+		    </div>
+		    <div class="col-12 col-md-10">
+		        <h3>Model-Driven Engineering for Digital Twins</h3>
+		        <h4>by Prof. Manuel Wimmer</h4>
+		    </div>
+		<div>
+
+ 
+       		<div class="col-12" style="text-align: justify;">
+        	<u><b>Abstract:</b></u> Due to the ever-growing importance of cyber-physical systems
+as a backbone of our society (think about shorter innovation cycles,
+emerging cutting-edge technologies, and changing requirements), the
+design, realization, operation, and maintenance of such systems are
+becoming more and more challenging.
+<br>
+As an answer, digital twins are emerging and gaining attention to
+support different phases of the system lifecycle such as design-space
+exploration, runtime adaptation, and predictive maintenance. While
+benefits of using digital twins are already demonstrated for different
+settings, the development, operation, and evolution of digital twins
+pose several novel engineering challenges.
+<br>
+In my talk, I will summarize different research endeavors we have
+followed to tackle the challenges in engineering digital twins with
+model-driven methodologies to close the gap between the design and
+operation of systems.   
+</div>
+<div class="col-12" style="text-align: justify;">
+<u><b>CV:</b></u> Manuel Wimmer is full professor and head of the Institute of
+Business Informatics - Software Engineering at the Johannes Kepler
+University Linz, Austria. His research interests comprise foundations of
+model-driven engineering and their application in various fields such as
+software modernization, cyber-physical systems, quantum computing, and
+digital twins. He serves as associate editor for IEEE Transactions on
+Software Engineering, Software and Systems Modeling, and Business &
+Information Systems Engineering. He served as program co-chair for
+several conferences (e.g., ICWE 2023, MODELS 2022, FASE 2022, SEAA 2020,
+ICMT 2015) and as general co-chair for SE 2024 and MODELS 2024.
+Currently he is co-organizing the 2nd International Conference on
+Engineering Digital Twins (EDTconf 2025). For more information, please
+visit: <a href="https://www.se.jku.at/manuel-wimmer" target="_blank">https://www.se.jku.at/manuel-wimmer</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+							</section>
+-->
+							<!-- Improtant Dates -->
+							<section id="dates">
+								<div class="container">
+									<h3>Important Dates</h3>
+									<ul class="feature-icons">
+							          <!--<li><strike>Paper submission deadline: March 7th, 2025</strike></li> -->
+							          <li class="icon solid fa-file">Paper submission deadline <!--(<span style="color:red">extended</span>)-->: March 8th, 2026</li>  
+							          <li class="icon solid fa-paper-plane">Authors notification: March 31st, 2026</li> 
+							          <li class="icon solid fa-book">Camera-ready paper: April 14th, 2026</li>
+							          <!-- <li class="icon solid fa-pencil-alt">Author registration: April 14th, 2026</li> -->
+							          <li class="icon solid fa-calendar-check">Workshop: June 8th-9th, 2026</li> 
+							    
+							        </ul>
+								</div>
+							</section>
+
+							<!-- Submissions -->
+							<section id="submissions">
+								<div class="container">
+									<h3>Submissions</h3>
+									<p>The workshop will accept regular papers and short (position) papers. Pieces of ongoing research work are also welcome.</p>
+
+									<p>The quality of this workshop will be ensured by having each contribution being reviewed by at least three experts in the field. A joint  volume for all CAiSE workshops will be organized, which will be published with Springer under the Lecture Notes in Business Information Processing (LNBIP) series.</p>
+									
+									<!-- <p>Submissions should be made via the <a href="https://easychair.org/my/conference?conf=caise2025" target="_blank">CAISE 2025 EasyChair</a> submission site by selecting "Workshops - MIDas4CS"</p> -->
+									
+									<p>Papers must be submitted in PDF format. All submissions must comply with the Springer‚ <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines" target="_blank">LNBIP</a> format. Regular papers  must not exceed 12 pages, including all text, figures, references, and appendices. Short papers must not exceed 6 pages.</p>
+									
+									<p><a id="submitButton" href="#" target="_blank">Submit Paper</a>
+									<br><br>
+								</div>
+							</section>
+
+							<!-- comitee -->
+							<section id="comitee">
+								<div class="container">
+									<h3>Programme Committee</h3>
+									<ul>
+										<li>Abel Armas Cervantes, University of Melbourne, Australia</li>
+										<li>Barbara Re, University of Camerino, Italy</li>
+										<li>Estefanía Serral, KU Leuven, Belgium</li>
+										<li>Victoria Torres Bosch, Universitat Politècnica de València, Spain</li>
+										<!--<li>Erik Proper, Technical University of Vienna, Austria</li>-->
+										<!--<li>Tony Clark, Aston University, United Kingdom</li>-->
+										<li>Oscar Pastor Lopez, Universitat Politècnica de València, Spain</li>
+										<!-- <li>Geert Poels, Ghent University, Belgium</li>-->
+										<!--<li>Francis Bordeleau, École de Technologie Supérieure (ETS), Canada</li>-->
+										<li>Philipp Zech, University of Innsbruck, Austria</li>
+										<li>Ruth Breu, University of Innsbruck, Austria</li>
+										<li>Souvik Barat, TCS Research, India</li>
+										<li>Taru Itäpelto, University of Twente,The Netherlands</li>
+										<li>Vinay Kulkarni, TCS Research, India</li>
+
+									</ul>
+								</div>
+							</section>
+
+						<!-- chairs -->
+							<section id="chairs">
+								<div class="container">
+									<h3>Programme Chairs</h3>
+									<div class="features">
+										<article>
+											<a target="_blank" href="https://www.upv.es/ficha-personal/pedvalar" class="image"><img src="images/pvalderas.png" alt="" /></a>
+											<div class="inner">
+												<h4><a target="_blank" href="https://www.upv.es/ficha-personal/pedvalar">Pedro Valderas</a></h4>
+												<p><a href="mailto:pvalderas@dsic.upv.es">pvalderas@dsic.upv.es</a><br>
+												Universitat Politècnica de València, Spain</p>
+											</div>
+										</article>
+										<article>
+											<a target="_blank" href="https://pros.unicam.it/fabriziofornari/" class="image"><img src="images/fabrizio.jpg" alt="" /></a>
+											<div class="inner">
+												<h4><a target="_blank" href="https://pros.unicam.it/fabriziofornari/">Fabrizio Fornari</a></h4>
+												<p><a href="mailto:fabrizio.fornari@unicam.it">fabrizio.fornari@unicam.it</a><br>
+												University of Camerino, Italy</p>
+											</div>
+										</article>
+										<article>
+											<a target="_blank" href="https://people.utwente.nl/l.ferreirapires" class="image"><img src="images/l.ferreirapires.jpg" alt="" /></a>
+											<div class="inner">
+												<h4><a target="_blank" href="https://people.utwente.nl/l.ferreirapires">Luís Ferreira Pires</a></h4>
+												<p><a href="mailto:l.ferreirapires@utwente.nl">l.ferreirapires@utwente.nl</a></br>
+												University of Twente, The Netherlands</p>
+											</div>
+										</article>
+										<article>
+											<a target="_blank" href="https://people.utwente.nl/m.j.vansinderen" class="image"><img src="images/m.j.vansinderen.jpg" alt="" /></a>
+											<div class="inner">
+												<h4><a target="_blank" href="https://people.utwente.nl/m.j.vansinderen">Marten van Sinderen</a></h4>
+												<p><a href="mailto:m.j.vansinderen@utwente.nl">m.j.vansinderen@utwente.nl</a></br>
+												University of Twente, The Netherlands</p>
+											</div>
+										</article>
+										<article>
+											<a target="_blank" href="https://people.utwente.nl/j.luizrebelomoreira" class="image"><img src="images/j.luizrebelomoreira.jpg" alt="" /></a>
+											<div class="inner">
+												<h4><a target="_blank" href="https://people.utwente.nl/j.luizrebelomoreira">João Moreira</a></h4>
+												<p><a href="mailto:j.luizrebelomoreira@utwente.nl">j.luizrebelomoreira@utwente.nl</a></br>
+												University of Twente, The Netherlands</p>
+											</div>
+										</article>
+									</div>
+								</div>
+							</section>
+
+						
+							
+						
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; MIDas4CS 2026. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
