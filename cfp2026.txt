@@ -1,0 +1,72 @@
+***************************************************************************** 
+
+CALL FOR PAPERS 
+
+MIDas4CS 2026 - 4th Workshop on the Modelling and Implementation of Digital Twins for Complex Systems
+
+
+June 8-9, 2026
+Verona, Italy
+
+https://midas4cs.github.io/2026 
+
+
+***************************************************************************** 
+
+The concept of Digital Twin is becoming increasingly popular since it was introduced in the scope of the Smart Industry (Industry 4.0). A Digital Twin (DT) is a digital representation of a physical twin that is a real-world entity, system, or event. It mirrors a distinctive object, process, building, or human, regardless of whether that thing is tangible or non-tangible in the real world. The DT technology provides benefits such as real-time remote monitoring and control; greater efficiency and safety; predictive maintenance and scheduling; scenario and risk assessment; better intra- and inter-team synergy and collaborations; more efficient and informed decision support system; personalisation of products and services; and better documentation and communication. The ultimate purpose of Digital Twins is to improve decision-making for solving real-world problems, by using the digital model to create the information necessary for decision-making and subsequently applying the decisions in the real world. Nowadays, Digital Twins are not limited to industrial applications but are spreading to other areas as well, such as, for example, in the healthcare domain, in personalised medicine and clinical trials for drug development.
+
+This workshop aims at getting a better understanding of the techniques that can be used to model and implement Digital Twins and their applications in different domains. In this workshop, we welcome contributions that aim at introducing formal definitions of Digital Twin, but also contributions that describe applications of Digital Twins in different domains. Contributions on tooling for Digital Twins are also welcome.
+
+
+Topics of Interest
+—————————————
+Potential topics include, but are not limited to:
+- Management and Engineering of DT for Complex Systems
+- Complex System Architectures for DTs
+- Safety and Security in Adopting DTs
+- Platforms, Frameworks and Tools for DTs
+- Methods and Techniques for the Development of DTs
+- Edge/Fog/Cloud Computing for DTs
+- Conceptual Modelling and Ontologies of DTs
+- Model-driven Engineering for DTs
+- Quality Assurance of DTs
+- Digital Process Twins
+- Collaboration among DTs
+- Interaction and cooperation between DTs and Humans
+- Artificial Intelligence for DTs
+- DT Enhanced Business Processes
+- Cognitive Computing for DTs
+- Augmented and Virtual Reality for DT
+- Practical Validation and Case Studies
+- Design patterns for Digital Twins
+
+
+Important Dates
+—————————————
+- Full paper submissions: March 8th, 2026
+- Notification of acceptance: March 31st, 2026
+- Camera-ready paper: April 14th, 2026
+- Workshop: June 8th-9th, 2026
+
+
+ Submissions
+—————————————
+The workshop will accept regular papers and short (position) papers. Pieces of ongoing research work are also welcome.
+
+The quality of this workshop will be ensured by having each contribution reviewed by at least three experts in the field. A proceedings volume will be published with Springer under the Lecture Notes in Business Information Processing (LNBIP) series.
+
+Submissions should be made via the following EaasyChair submission site by selecting the track "4th edition of Modelling and Implementation of Digital Twins for Complex Systems"
+
+https://easychair.org/my/conference?conf=caise2026 
+
+Papers must be submitted in PDF format. All submissions must comply with the Springer‚ LNBIP format. Regular papers must not exceed 12 pages, including all text, figures, references, and appendices. Short papers must not exceed 6 pages.
+
+
+
+Program Chairs
+—————————————
+Pedro Valderas (pvalderas@dsic.upv.es)
+Fabrizio Fornari (fabrizio.fornari@unicam.it)
+Luís Ferreira Pires (l.ferreirapires@utwente.nl)
+Marten van Sinderen (m.j.vansinderen@utwente.nl)
+João Moreira (j.luizrebelomoreira@utwente.nl)
